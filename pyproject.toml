@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "magnepy"
+version = "0.1.0"
+description = "An application for processing and visualizing high-precision magnetometry data."
+authors = ["Ihor Sukhorada <ihorsukhorada@outlook.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+scipy = "^1.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
